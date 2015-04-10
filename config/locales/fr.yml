@@ -1,0 +1,7 @@
+  fr: 
+   routes:
+     about: propos
+     contact: contacter
+     signup: signer
+     login: connecter
+     users: utilisateurs

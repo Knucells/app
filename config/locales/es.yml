@@ -1,0 +1,7 @@
+  es: 
+   routes:
+     about: acerca
+     contact: contacto
+     signup: contratar
+     login: iniciar
+     users: usuarios
