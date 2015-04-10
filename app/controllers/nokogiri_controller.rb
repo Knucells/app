@@ -15,6 +15,8 @@ class NokogiriController < ApplicationController
   content = text.to_s.scan(/\w+/)
   puts content.length, content.uniq.length, content.uniq.sort[0..8]
 
+  helper_method :frequencies
+  
   def frequencies(content)
     Hash[
       content.group_by(&:downcase).map{ |word, instances|
@@ -22,7 +24,5 @@ class NokogiriController < ApplicationController
         }.sort_by(&:last).reverse
       ]
   end
-  
-  puts frequencies(content)
 end
   
