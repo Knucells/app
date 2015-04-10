@@ -1,6 +1,19 @@
 <% provide(:title, 'Contact') %>
 <h1>Contact</h1>
 <p>
-  Contact the Ruby on Rails Tutorial about the sample app at the
-  <a href="http://www.railstutorial.org/#contact">contact page</a>.
+  <%= form_tag("/name", method: "get") do %>
+  <%= label_tag(:q, "Name:") %>
+  <%= text_field_tag(:q) %>
+<% end %>
+  
+  <%= form_tag("/email", method: "get") do %>
+  <%= label_tag(:q, "Email:") %>
+  <%= text_field_tag(:q) %>
+<% end %>
+  
+  <%= form_tag("/message", method: "get") do %>
+  <%= label_tag(:q, "Input Message Here:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Send") %>
+<% end %>
 </p>

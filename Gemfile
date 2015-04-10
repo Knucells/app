@@ -11,6 +11,7 @@ gem 'sdoc',                 '0.4.0', group: :doc
 gem 'nokogiri'
 gem 'bootstrap-sass',       '3.2.0.0'
 gem 'bcrypt',               '3.1.7'
+gem 'route_translator'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

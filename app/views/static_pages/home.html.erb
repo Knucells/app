@@ -4,6 +4,13 @@
   <h2>
   The app is currently under development, so not all features work as expected.... Sorry!
   </h2>
+  
+  <p> This would be the search bar for the website: However due to time problems, this could not be implemented... A rudimentary version of using imsdb's search has been added below as a workaround </P
+    <%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:q, "Search for films:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+    <% end %>
 
 <form action="http://www.imsdb.com/search.php" method="POST">
   <table width="144" border="1" align=center>

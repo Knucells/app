@@ -1,71 +1,83 @@
-commit f70c0f8c4ee6b5a240f041db45590bdeb3f34c90
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Fri Apr 10 00:22:06 2015 +0000
-
-    Finish log in/log out
-
-commit 4311b53f7ee5670ee881026c24b06e68cfd6992f
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Thu Apr 9 23:28:53 2015 +0000
-
-    Use SSL and the Puma webserver in production
-
-commit 74244fa2415cf39390b59c35f39f6e72e5938438
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Thu Apr 9 23:24:42 2015 +0000
-
-    Finished User Signup
-
-commit a82c15223cbf0949314eae2f9f6b2b9267d997b2
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Thu Apr 9 17:13:17 2015 +0000
-
-    Made basic User model (+ Secure Pass)
-
-commit a4403fb01f709221f75dbc0f8695059870b0f2e8
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Thu Apr 9 16:55:02 2015 +0000
-
-    backup point for auth
-
-commit 48bbd4aaa658643401589c9e7d84722ca2163676
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Wed Apr 8 23:03:28 2015 +0000
-
-    Finish layout +routes
-
-commit 0a8d3b34a8ed8b3e7fe47850e54aef8d0c6ac4d3
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Tue Apr 7 23:54:16 2015 +0000
-
-    Added title helper
-
-commit 7d8869db0fc649817b974810635deb585576a7e2
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Tue Apr 7 23:40:33 2015 +0000
-
-    Finish static pages
-
-commit 5e472b4833d199293fd673d77cebefce9f2fb84a
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Tue Apr 7 23:24:30 2015 +0000
-
-    add static pages controller
-
-commit 9b129bbbe6c8421a4ceeafe9c65302745a1fb1ec
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Tue Apr 7 23:22:26 2015 +0000
-
-    began setup
-
-commit 39d8e5db3dfaf80ce86b023f12dda2ea36574774
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Tue Apr 7 23:15:01 2015 +0000
-
-    Update Gemfile.lock for Heroku
-
-commit 339bf99d5e12dac19ef9efc8e3b669607f38e900
-Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
-Date:   Tue Apr 7 23:13:24 2015 +0000
-
-    first commit
+* commit 179a59f4a65ba9d30ed16ff1015eeef81f598139
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Fri Apr 10 15:03:34 2015 +0000
+| 
+|     IMDSb search added
+|  
+* commit 9345c01db1f9f8a2eb8e389220b3a39ded6ebd60
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Fri Apr 10 02:46:04 2015 +0000
+| 
+|     Added results to bar + Test changes
+|  
+* commit f70c0f8c4ee6b5a240f041db45590bdeb3f34c90
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Fri Apr 10 00:22:06 2015 +0000
+| 
+|     Finish log in/log out
+|  
+* commit 4311b53f7ee5670ee881026c24b06e68cfd6992f
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Thu Apr 9 23:28:53 2015 +0000
+| 
+|     Use SSL and the Puma webserver in production
+|  
+* commit 74244fa2415cf39390b59c35f39f6e72e5938438
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Thu Apr 9 23:24:42 2015 +0000
+| 
+|     Finished User Signup
+|  
+* commit a82c15223cbf0949314eae2f9f6b2b9267d997b2
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Thu Apr 9 17:13:17 2015 +0000
+| 
+|     Made basic User model (+ Secure Pass)
+|  
+* commit a4403fb01f709221f75dbc0f8695059870b0f2e8
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Thu Apr 9 16:55:02 2015 +0000
+| 
+|     backup point for auth
+|  
+* commit 48bbd4aaa658643401589c9e7d84722ca2163676
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Wed Apr 8 23:03:28 2015 +0000
+| 
+|     Finish layout +routes
+|  
+* commit 0a8d3b34a8ed8b3e7fe47850e54aef8d0c6ac4d3
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Tue Apr 7 23:54:16 2015 +0000
+| 
+|     Added title helper
+|  
+* commit 7d8869db0fc649817b974810635deb585576a7e2
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Tue Apr 7 23:40:33 2015 +0000
+| 
+|     Finish static pages
+|  
+* commit 5e472b4833d199293fd673d77cebefce9f2fb84a
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Tue Apr 7 23:24:30 2015 +0000
+| 
+|     add static pages controller
+|  
+* commit 9b129bbbe6c8421a4ceeafe9c65302745a1fb1ec
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Tue Apr 7 23:22:26 2015 +0000
+| 
+|     began setup
+|  
+* commit 39d8e5db3dfaf80ce86b023f12dda2ea36574774
+| Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+| Date:   Tue Apr 7 23:15:01 2015 +0000
+| 
+|     Update Gemfile.lock for Heroku
+|  
+* commit 339bf99d5e12dac19ef9efc8e3b669607f38e900
+  Author: Mhairi Parr <m.s.parr.09@aberdeen.ac.uk>
+  Date:   Tue Apr 7 23:13:24 2015 +0000
+  
+      first commit
